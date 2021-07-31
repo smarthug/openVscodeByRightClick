@@ -28,7 +28,7 @@
    "name": "open open.vscode.dev by right click",
    "short_name": "Open GitHub in VS Code",
    "author": "Smarthug",
-   "permissions": [ "contextMenus" ],
+   "permissions": [ "contextMenus", "tabs" ],
    "update_url": "https://clients2.google.com/service/update2/crx",
    "version": "1.0"
 }
