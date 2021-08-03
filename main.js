@@ -1,5 +1,5 @@
 function main() {
-  const regEx = RegExp(/\/\w+\/\w+/ , 'g')
+  const regEx = RegExp(/\/[a-zA-Z0-9_-]+\/[a-zA-Z_.-]+/ , 'g')
 
   chrome.contextMenus.create({
     title: "Go to open.vscode.dev of this repository",
