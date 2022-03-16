@@ -9,7 +9,8 @@ function main() {
 
   chrome.contextMenus.onClicked.addListener(function (itemData) {
     chrome.tabs.getSelected(null, function (tab) {
-      window.open("https://open.vscode.dev" + regEx.exec(tab.url)[0], "_blank");
+      // window.open("https://open.vscode.dev" + regEx.exec(tab.url)[0], "_blank");
+      window.open("https://vscode.dev/github" + regEx.exec(tab.url)[0], "_blank");
     });
   });
 }
