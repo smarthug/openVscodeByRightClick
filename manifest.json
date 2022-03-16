@@ -25,10 +25,10 @@
    },
    
    "manifest_version": 2,
-   "name": "open open.vscode.dev by right click",
+   "name": "open vscode.dev by right click",
    "short_name": "Open GitHub in VS Code",
    "author": "Smarthug",
    "permissions": [ "contextMenus", "tabs" ],
    "update_url": "https://clients2.google.com/service/update2/crx",
-   "version": "1.3"
+   "version": "1.4"
 }

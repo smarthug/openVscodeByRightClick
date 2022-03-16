@@ -8,6 +8,7 @@
 
 
 ### What's changed?
+* v1.4 Url changed from https://open.vscode.dev to https://vscode.dev/github
 * v1.3 Bug fixed. Better Regex
 * v1.2 Bug fixed.
 
